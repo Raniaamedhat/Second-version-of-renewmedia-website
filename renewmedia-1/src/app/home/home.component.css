@@ -1,0 +1,17 @@
+/*******************
+Start Video
+*******************/
+.video {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+/*******************
+End Video
+*******************/

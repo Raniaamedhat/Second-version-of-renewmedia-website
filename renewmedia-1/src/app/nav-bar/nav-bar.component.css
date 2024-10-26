@@ -1,0 +1,82 @@
+/*******************
+Start Navbar
+*******************/
+
+/************** navbar ******************/
+.navbar.transparent {
+    background-color: transparent;
+}
+.navbar.black {
+    background-color: #000000; /* Change this to your desired color */
+}
+
+.navbar{
+    padding: 0;
+    min-height: 75px;
+    background-color: transparent;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+}
+.navbar-brand img{
+    display: block;
+    width: 50px;
+}
+.navbar a{
+    color: white;
+}
+.navbar-scrolled{
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+/**/
+.navbar-toggler{
+    background-color: var(--span1-color-);
+}
+.navbar-collapse{
+    
+    text-align:end;
+}
+.collapse .navbar-collapse{
+    background-color:white;
+
+}
+
+.navbar-toggler .icon{
+    color: white;
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+    padding: 7px 3px 7px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px
+
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.focus,
+.navbar .navbar-nav .nav-link:hover,
+.navbar-brand{
+    color:var(--span1-color-);
+}
+
+.dropdown-menu{
+    background-color: #000000;
+}
+
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    color: var(--span1-color-);
+}
+
+/*******************
+End Navbar
+*******************/
