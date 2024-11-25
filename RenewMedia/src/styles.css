@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --span1-color-:#49beed;
+    --main-color-:#000000;
+    --bg-1-color-:#275599;
+    --bg-2-color:#111111;
+    --bg-3-color:#232323;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--main-color-);
+}

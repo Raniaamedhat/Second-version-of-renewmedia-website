@@ -1,0 +1,53 @@
+:root{
+    --span1-color-:#49beed;
+    --main-color-:#000000;
+    --bg-1-color-:#275599;
+    --bg-2-color:#111111;
+    --bg-3-color:#232323;
+}
+/********************location********************/
+h1{
+    color: white;
+    margin: 15px 0;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-size: 48px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.location{
+    margin-bottom: -93px;
+}
+iframe{
+    width: 80%;
+    height: 500px;
+}
+/********************blue circle********************/
+.contact-circle{
+    margin-bottom: 75px;
+}
+.blue-circle{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--span1-color-);
+    border-radius: 50%;
+}
+svg{
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+p{
+    color: white;
+    margin-bottom: 80px;
+}

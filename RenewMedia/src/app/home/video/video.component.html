@@ -1,0 +1,33 @@
+    <!-------------------
+        Start Video
+    --------------------->
+    <div class="Video d-flex justify-content-center">
+        <video id="myVideo"  loop muted autoplay >
+            <source src="assets/images-renew/renewmedia-new.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <script>
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+// Get the video element
+const video = document.getElementById('myVideo');
+
+// Play the video
+function playVideo() {
+    video.play();
+}
+
+// Pause the video
+function pauseVideo() {
+    video.pause();
+}
+
+// Stop the video (and reset to the beginning)
+function stopVideo() {
+    video.pause();
+    video.currentTime = 0;
+}
+    </script>
+    <!-------------------
+        End Viedeo
+    --------------------->

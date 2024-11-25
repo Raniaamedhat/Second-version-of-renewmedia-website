@@ -1,0 +1,54 @@
+/*********** owl-carousal-1 ******************/
+#img-owl{
+    height: 70vh;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    margin-bottom: 170px;
+}
+/**************side-link**********************/
+.side-links{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    position: absolute;
+    font-family: sans-serif;
+    left: 20px;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%) rotate(-90deg);
+}
+.side-links .Services-links a{
+    color: white; 
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    font-size: 15px;
+    transform: translateY(-50%); 
+    transition: all .3s;
+}
+.side-links .Services-links a:hover{
+    color: var(--span1-color-);
+}
+.side-links .Services-links svg{
+    fill: white; 
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 18px;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    transform: translateY(1%); 
+    transition: all .3s;
+}
+.side-links .Services-links svg:hover{
+    fill: var(--span1-color-) ;
+}
+/*********** LANDING****************/
+.landing h1{
+    padding-top: 200px;
+}
+.landing p{
+    color: white;
+    font-size: 20px;
+}

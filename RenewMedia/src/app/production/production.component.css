@@ -1,0 +1,76 @@
+/**************side-link**********************/
+.side-links{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    position: absolute;
+    font-family: sans-serif;
+    left: 20px;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%) rotate(-90deg);
+}
+.side-links .Services-links a{
+    color: white; 
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    font-size: 15px;
+    transform: translateY(-50%); 
+    transition: all .3s;
+}
+.side-links .Services-links a:hover{
+    color: var(--span1-color-);
+}
+.side-links .Services-links svg{
+    fill: white; 
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 18px;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    transform: translateY(1%); 
+    transition: all .3s;
+}
+.side-links .Services-links svg:hover{
+    fill: var(--span1-color-) ;
+}
+/*********** LANDING****************/
+.landing{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing h1{
+    padding-top: 200px;
+}
+.landing p{
+    color: white;
+    font-size: 20px;
+}
+/*********** owl-carousal ****************/
+#img-owl{
+    height: 70vh;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    margin-bottom: 40px;
+}
+/***********serv part****************/
+.item{
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    transform: translate(20%, -450%);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-size: 23px;
+
+}

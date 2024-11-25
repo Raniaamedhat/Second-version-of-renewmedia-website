@@ -1,0 +1,45 @@
+:root{
+    --span1-color-:#49beed;
+    --main-color-:#000000;
+    --bg-1-color-:#275599;
+    --bg-2-color:#111111;
+    --bg-3-color:#232323;
+    
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+h2 span{
+    color: var(--span1-color-);
+}
+/*********************owl-carousel for all pages***********************/
+.main-title{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 60px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+} 
+.main-title::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%) ;
+}
+
+#cor-fam img{
+    display: block;
+    width: 60%;
+    height: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 5px;
+    padding-bottom: 50px;
+}
